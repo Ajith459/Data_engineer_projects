@@ -1,1 +1,26 @@
-#Pandas 
+### Pandas
+pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+built on top of the Python programming language.
+
+Basically we have two types of data structure
+1.series - a one dimenisonal labeled array holding any data of any type.
+such as integers,strings,python objects.
+2.data frame : data frame is two dimensional array hold data like two dimension arrat or table with rows and coulumns
+data struture also contains labeled axis rows and columns
+size mutable,potentially heterogeneous tabular data.
+Data is organized in rows and columns (like a spreadsheet or SQL table)
+
+============================
+parameters:
+
+data :ndarry,structured or homegeonous,literable,dict,or data frame
+
+>>Dataframe.head() and DataFrame.tail() to view top and bottoms rows.
+>dataframe.index or DataFrame.Columns to view the index and columns
+>>dtypes -- what are types of colulmns that hold on it-float,init
+>>describe() ==quick summary of data 
+>>df.T -- Transposing of data
+>>DataFrame.sort_index() sort by axis
+
+
+
